@@ -1,0 +1,17 @@
+.user-project {
+    width: 100dvw;
+    height: 100dvh;
+    position: relative;
+}
+
+.user-content {
+    width: 95%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    translate: -50%;
+}

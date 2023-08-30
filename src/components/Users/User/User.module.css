@@ -1,0 +1,27 @@
+.user {
+    border-radius: 5px;
+    padding: 10px;
+    color: #343434;
+    border: 3px solid #343434;
+    position: relative;
+    animation: user-animat 0.5s linear forwards;
+}
+
+.user p {
+    font-size: 18px;
+}
+
+.user span {
+    font-weight: 700;
+}
+
+@keyframes user-animat {
+    0% {
+        top: 30px;
+        opacity: 0;
+    }
+    100% {
+        top: 0;
+        opacity: 1;
+    }
+}

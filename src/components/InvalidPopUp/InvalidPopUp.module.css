@@ -1,0 +1,38 @@
+.invalid {
+    width: 100dvw;
+    height: 100dvh;
+    background-color: #3434346e;
+    position: relative;
+}
+
+.popup {
+    width: 80%;
+    max-width: 500px;
+    height: 250px;
+    background-color: white;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 15px;
+}
+
+.invalid h1 {
+    font-size: 22px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.invalid p {
+    color: red;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    text-transform: capitalize;
+}
